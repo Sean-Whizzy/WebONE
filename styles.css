@@ -1,0 +1,91 @@
+body{
+    background-color: #F3E9DF;
+    margin: 0;
+}
+
+/* Navigation bar */
+.NAV {
+    display: flex;
+    color: #352208;
+    justify-content: space-between;
+    align-items: center;
+   width: 100%; /* Take full width of the page */
+    position: fixed; /* Stays at the top */
+    top: 0;
+    margin-bottom: 25%;
+    right: 0;
+    z-index: 1; /* Ensures it's above other content */
+}
+
+/* Hero section */
+.heroSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 80%;
+    height: auto;
+    background-color: #E1BB80;
+    padding: 0;
+    margin: 10% auto; /* Centers the hero section horizontally and adds vertical margin */
+}
+
+/* Donut hero text */
+#DonutHero {
+   font-size: 200px;
+   letter-spacing: 30px;
+   margin: 0;
+   padding: 0;
+   font-family: 'Modak';
+}
+
+/* Donut image inside text */
+.donut-image {
+    height: 20vh;
+    width: 15vw;
+    vertical-align: middle;
+}
+
+/* Main donut image container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* Adds vertical margin around the container */
+}
+
+/* Main donut image */
+#maindonut {
+    max-width: 100%;
+    
+    border: solid black;
+}
+
+/* Text content container */
+.container2 {
+    margin-top: 20px;
+    padding: 0 10%; /* Adds padding for better readability */
+    display: flex;
+    justify-content: center;
+}
+
+/* Text block styling */
+.text {
+    margin: -10%;
+    padding: 0;
+    text-align: center;
+    max-width: 53%;
+    line-height: 1.5; /* Improves readability */
+    font-family: 'Abhaya Libre'
+}
+#button{
+    background-color: hotpink;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Odor Mean Chey';
+    position: relative;
+    left: 45%;
+    
+  
+}
